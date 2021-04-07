@@ -18,7 +18,13 @@ var menuGrande = $('.hamburger-menu')
 var chiusura = $('.close');
 //console.log(chiusura)
 
-// 1 devi cliccare per poter attivare l'altra pagina
+// 1 devi cliccare per poter attivare l'altra pagina(click = azione che viene svolta, di conseguenza un coseguenza)
+//   function() <-- così è chiamata anonima
 menu.click( function(){
     menuGrande.fadeIn();
+})
+
+// 2 uguale ma che sia al contrario(cioè , che ora cliccando la X la gina si tolga) , da cambiare il nome però dell'og che deve sparire di nuovo  
+chiusura.click( function(){
+    menuGrande.fadeOut();
 })
