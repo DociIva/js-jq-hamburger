@@ -12,7 +12,7 @@ var menu = $('.fa-bars');
 //console.log(menu);
 
 // per il menu princilpale dove e messa la X
-var menuGrande = $('hamburger-menu')
+var menuGrande = $('.hamburger-menu')
 
 // per la X
 var chiusura = $('.close');
@@ -20,5 +20,5 @@ var chiusura = $('.close');
 
 // 1
 menu.click( function(){
-    chiusura.fadeIn();
+    
 })
