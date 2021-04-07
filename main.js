@@ -6,7 +6,7 @@
 //Partite dal comprendere bene come è fatto 
 //il DOM e il CSS, potete usarli a vostro vantaggio!
 
-// referenze per non richiamare troppoe volte
+// referenze per non richiamare troppe volte
 // per il menu il click
 var menu = $('.fa-bars');
 //console.log(menu);
@@ -18,7 +18,7 @@ var menuGrande = $('.hamburger-menu')
 var chiusura = $('.close');
 //console.log(chiusura)
 
-// 1
+// 1 devi cliccare per poter attivare l'altra pagina
 menu.click( function(){
-    
+    menuGrande.fadeIn();
 })
